@@ -11,32 +11,36 @@ Description
 Services
 ***********
 
-
-
-Exchange-DatabaseActivity
-        - Activité de la base de données 
+Cpu
+        - Utilisation du CPU
         - SNMP
 
 ~~~~~~
 
-Exchange-HubTransportActivity
-        - Activité du server de transport Hub
+Disks $KEY$
+        - Utilisations des disques / partitions
         - SNMP
 
 ~~~~~~
 
-Exchange-HubTransportQueues
-        - Taille des queues du server de transport Hub
+Load
+        - Moyenne de la charge système à 1, 5 et 15 minutes
         - SNMP
 
 ~~~~~~
 
-Exchange-SmtpReceive
-        - Nombre de mails reçus
+Memory
+        - Utilisation de la RAM
         - SNMP
 
 ~~~~~~
 
-Exchange-SmtpSend
-        - Nombre de mails envoyés 
+NetworkUsage
+        - Utilisation des interfaces réseaux ( en % et en byte/s)
+        - SNMP
+
+~~~~~~
+
+TimeSync
+        - Vérifie la synchronisation à un server NTP
         - SNMP

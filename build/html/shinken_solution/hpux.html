@@ -112,7 +112,7 @@
 <li class="toctree-l2"><a class="reference internal" href="mysql.html">Pack MySQL</a></li>
 <li class="toctree-l2"><a class="reference internal" href="oracle.html">Pack Oracle</a></li>
 <li class="toctree-l2"><a class="reference internal" href="switch.html">Pack switch</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vmware.html">Pack VmWare</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vmware.html">Pack VMware</a></li>
 <li class="toctree-l2"><a class="reference internal" href="windows.html">Pack Windows</a></li>
 </ul>
 </li>
@@ -191,45 +191,54 @@
 <div class="section" id="services">
 <h2>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h2>
 <dl class="docutils">
-<dt>Exchange-DatabaseActivity</dt>
+<dt>Cpu</dt>
 <dd><ul class="first last simple">
-<li>Activité de la base de données</li>
+<li>Utilisation du CPU</li>
 <li>SNMP</li>
 </ul>
 </dd>
 </dl>
 <hr class="docutils" />
 <dl class="docutils">
-<dt>Exchange-HubTransportActivity</dt>
+<dt>Disks $KEY$</dt>
 <dd><ul class="first last simple">
-<li>Activité du server de transport Hub</li>
+<li>Utilisations des disques / partitions</li>
 <li>SNMP</li>
 </ul>
 </dd>
 </dl>
 <hr class="docutils" />
 <dl class="docutils">
-<dt>Exchange-HubTransportQueues</dt>
+<dt>Load</dt>
 <dd><ul class="first last simple">
-<li>Taille des queues du server de transport Hub</li>
+<li>Moyenne de la charge système à 1, 5 et 15 minutes</li>
 <li>SNMP</li>
 </ul>
 </dd>
 </dl>
 <hr class="docutils" />
 <dl class="docutils">
-<dt>Exchange-SmtpReceive</dt>
+<dt>Memory</dt>
 <dd><ul class="first last simple">
-<li>Nombre de mails reçus</li>
+<li>Utilisation de la RAM</li>
 <li>SNMP</li>
 </ul>
 </dd>
 </dl>
 <hr class="docutils" />
 <dl class="docutils">
-<dt>Exchange-SmtpSend</dt>
+<dt>NetworkUsage</dt>
 <dd><ul class="first last simple">
-<li>Nombre de mails envoyés</li>
+<li>Utilisation des interfaces réseaux ( en % et en byte/s)</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>TimeSync</dt>
+<dd><ul class="first last simple">
+<li>Vérifie la synchronisation à un server NTP</li>
 <li>SNMP</li>
 </ul>
 </dd>

@@ -11,26 +11,31 @@ Description
 Services
 ***********
 
+Connections
+        - Statistiques des connexions au serveur
+        - SNMP
 
-Ldap
-	- Vérification du fonctionnement de LDAP
-	- SNMP
+~~~~~~
 
-~~~~~
+Errors
+        - Statistiques des erreurs
+        - SNMP
 
-Ldap3
-	- Vérification du fonctionnement de LDAP3
-	- SNMP
+~~~~~~
 
-~~~~~
+RequestsActivity
+        - Statistiques des requêtes
+        - SNMP
 
-Ldaps
-	- Vérification du fonctionnement de LDAP over SSL
-	- SNMP
+~~~~~~
 
-~~~~~
+TransfertsActivity
+        - Statistiques des transferts
+        - SNMP
 
-LdapsCertificate
-	- Vérification de la présence d'un certificat pour LDAP over SSL
-	- SNMP
+~~~~~~
+
+Users
+        - Nombre d'utilisateurs
+        - SNMP
 

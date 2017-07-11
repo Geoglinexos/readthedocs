@@ -11,69 +11,82 @@ Description
 Services
 *********** 
 
+~~~~~~
+
+~~~~~~
+
 **VM**
-------
+-------
+~~~~~~
+
+~~~~~~
+
 
 CPU 
         - Utilisation du CPU
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 Disks 
         - Utilisations des disques / partitions
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 Mem
         - Utilisation de la RAM
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 Io
 	-Input / output 
-	-SNMP
+	-SSH
 
 ~~~~~~
 
 NET
         - Utilisation des interfaces réseaux 
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 VM Tools
         - Vérifie de l'état des VMWare Tools
-        - SNMP
+        - SSH
 
 ~~~~~~
 
+~~~~~~
 
 **ESX**
 -------
 
+~~~~~~
+
+~~~~~~
+
 CPU 
         - Utilisation du CPU
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 Memory
         - Utilisation de la RAM
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 Io
 	-Input / output 
-	-SNMP
+	-SSH
 
 ~~~~~~
 
 NET
         - Utilisation des interfaces réseaux 
-        - SNMP
+        - SSH
 
 
