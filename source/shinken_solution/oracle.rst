@@ -11,23 +11,25 @@ Description
 Services
 ********
 
-
-Oracle-$KEY$-connection-time 
-        - Connexion à Oracle
-        - SNMP
-
-~~~~~~~~~
-
-.. note:: Il existe de nombreux checks pour Oracle, regroupés en sous-ensemble sur différents templates d'hôte. Ci dessous sont listés les principaux.
+.. note:: Templates d'hôte pour les checks Oracle.
 
 oracle
 	6 Checks élémentaires sur l'état et les performances d'Oracle
 
+oracle-availability
+	1 Check sur le temps de connexion à Oracle
+
 oracle-datafiles
 	2 Checks sur l'existence et le traffic des fichiers de données
 
+oracle-flash-recovery-area
+        1 Check sur les espaces de stockage FRA
+
 oracle-redo
-	3 Checks sur les fichiers de log redo
+	3 Checks sur les fichiers de log Redo
+
+oracle-rman
+        1 Check sur l'utilitaire RMAN
 
 oracle-rollback-segment
         5 Checks sur les objects Rollback Segment
@@ -35,22 +37,16 @@ oracle-rollback-segment
 oracle-sga
 	7 Checks sur la partie mémoire System Global Area 
 
+oracle-soft-parse
+        1 Check sur le soft parse
+
+oracle-stale-statistics
+        1 Check sur les statistiques d'erreur
+
 oracle-tablespace
 	3 Checks sur les espaces de stockage "tablespace"
 
 oracle-usage
 	2 Checks sur les sessions et utilisateurs
 
-.. note:: templates d'hôtes comprenant 1 check chacun.
-	  Ils permettent la supervision des espaces de stockages FRA et PGA, l'utilitaire RMAN, les ratios de soft parse et statistiques d'erreur.
-
-===============================
-Template d'hôte
-===============================
-oracle-flash-recovery-area 
-oracle-pga-in-memory-sort-ratio 
-oracle-rman
-oracle-soft-parse
-oracle-stale-statistics
-===============================
 
