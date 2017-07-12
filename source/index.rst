@@ -61,8 +61,8 @@ Liste des différents packs
 
 
 
-.. note:: Les noms de check qui comportent "$KEY$" changent en fonction de l'argument correspondant (les "$KEY$" seront remplacés par l'argument).
-
+.. note:: Les noms de check qui comportent "$KEY$" changent en fonction de l'argument correspondant (les "$KEY$" seront remplacés par l'argument, voir  `duplicate_foreach`_).
+.. _duplicate_foreach: http://151.80.162.119:8090/pages/releaseview.action?pageId=80120248 
 
 .. Hyperlink pour les packs Linexos
 
