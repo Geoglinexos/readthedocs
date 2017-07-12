@@ -41,8 +41,8 @@ Mem
 ~~~~~~
 
 Io
-	-Input / output 
-	-SSH
+	- Input / output 
+	- SSH
 
 ~~~~~~
 
@@ -69,24 +69,24 @@ VM Tools
 
 CPU 
         - Utilisation du CPU
-        - SSH
+        - API - HTTP 
 
 ~~~~~~
 
 Memory
         - Utilisation de la RAM
-        - SSH
+        - API - HTTP
 
 ~~~~~~
 
 Io
-	-Input / output 
-	-SSH
+	- Input / output 
+	- API - HTTP
 
 ~~~~~~
 
 NET
         - Utilisation des interfaces réseaux 
-        - SSH
+        - API - HTTP
 
 

@@ -5,7 +5,7 @@ Pack Aix
 Description
 ***********
 
-*Checks pour les appareils Aix*
+*Checks pour Aix*
 
 ***********
 Services

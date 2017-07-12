@@ -5,7 +5,7 @@ Pack HPUX
 Description
 ***********
 
-*Checks pour les appareils HP-UX*
+*Checks pour HP-UX*
 
 ***********
 Services

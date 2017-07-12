@@ -5,7 +5,7 @@ Pack Linux
 Description
 ***********
 
-*Checks pour appareils Linux*
+*Checks pour Linux*
 
 ***********
 Services

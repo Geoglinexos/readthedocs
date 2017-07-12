@@ -5,7 +5,7 @@ Pack Windows
 Description
 ***********
 
-*Checks pour appareils Windows*
+*Checks pour Windows*
 
 ********
 Services
