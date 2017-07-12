@@ -66,38 +66,38 @@ Liste des différents packs
 
 .. Hyperlink pour les packs Linexos
 
-.. _arkoon: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/arkoon.html
-.. _dell_powerconnect54: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/dell_powerconnect54XX.html
-.. _dell_powerconnect62: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/dell_powerconnect62XX.html
-.. _aruba_ap: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/aruba_ap.html
-.. _aruba_wlc: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/aruba_wlc.html
-.. _cisco_catalyst: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/cisco_catalyst.html
-.. _cisco_sg300: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/cisco_sg300.html
-.. _cisco_wlc: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/cisco_wlc.html
-.. _dell_force10: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/dell_force10.html
-.. _dell_force10_s: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/dell_force10_s_series.html
-.. _fortinet: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/fortinet.html
-.. _hp_procurve: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/hp_procurve.html
-.. _motorola_rfs6000: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/motorola_rfs6000.html
-.. _palo_alto: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/palo_alto.html
-.. _palo_alto_api: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/palo_alto_api.html
-.. _stormshield_sn: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/stormshield_sn.html
+.. .. _arkoon: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/arkoon.html
+.. .. _dell_powerconnect54: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/dell_powerconnect54XX.html
+.. .. _dell_powerconnect62: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/dell_powerconnect62XX.html
+.. .. _aruba_ap: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/aruba_ap.html
+.. .. _aruba_wlc: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/aruba_wlc.html
+.. .. _cisco_catalyst: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/cisco_catalyst.html
+.. .. _cisco_sg300: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/cisco_sg300.html
+.. .. _cisco_wlc: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/cisco_wlc.html
+.. .. _dell_force10: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/dell_force10.html
+.. .. _dell_force10_s: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/dell_force10_s_series.html
+.. .. _fortinet: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/fortinet.html
+.. .. _hp_procurve: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/hp_procurve.html
+.. .. _motorola_rfs6000: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/motorola_rfs6000.html
+.. .. _palo_alto: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/palo_alto.html
+.. .. _palo_alto_api: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/palo_alto_api.html
+.. .. _stormshield_sn: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/stormshield_sn.html
 
 .. Hyperlink pour les pack Shinken Solution
-.. _aix: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/aix.html
-.. _cisco: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/cisco.html
-.. _exchange: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/exchange.html
-.. _hpux: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/hpux.html
-.. _iis: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/iis.html
-.. _ldap: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/ldap.html
-.. _linux: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/linux.html
-.. _mongodb: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/mongodb.html
-.. _mssql: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/mssql.html
-.. _mysql: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/mysql.html
-.. _oracle: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/oracle.html
-.. _switch: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/switch.html
-.. _vmware: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/vmware.html
-.. _windows: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/windows.html
+.. .. _aix: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/aix.html
+.. .. _cisco: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/cisco.html
+.. ..  _exchange: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/exchange.html
+.. .. _hpux: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/hpux.html
+.. .. _iis: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/iis.html
+.. .. _ldap: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/ldap.html
+.. .. _linux: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/linux.html
+.. .. _mongodb: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/mongodb.html
+.. .. _mssql: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/mssql.html
+.. .. _mysql: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/mysql.html
+.. .. _oracle: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/oracle.html
+.. .. _switch: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/switch.html
+.. .. _vmware: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/vmware.html
+.. .. _windows: http://192.168.1.214:8000/docs/shinken/fr/latest/shinken_solution/windows.html
 
 
 .. toctree::
