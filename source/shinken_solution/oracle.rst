@@ -35,6 +35,11 @@ oracle-flash-recovery-area
 	1 Check sur les espaces de stockage FRA
 
 
+~~~~~~
+
+oracle-pga-in-memory-sort-ratio
+	1 Check sur la partie mémoire Program Global Area
+
 ~~~~~
 
 
