@@ -124,7 +124,7 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     #
-    # 'preamble': '',
+    # 'preamble': "".join((
 
     # Latex figure (float) alignment
     #
