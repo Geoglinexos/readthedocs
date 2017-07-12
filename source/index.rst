@@ -59,6 +59,9 @@ Liste des différents packs
 +-----------------------+-----------------------+-------+-----------------------+-----------------------+
 
 
+.. note:: Certains noms comportant "$KEY$" changent en fonction de l'argument correspondant (les "$KEY$" seront remplacés par l'argument).
+
+
 .. Hyperlink pour les packs Linexos
 
 .. _arkoon: http://192.168.1.214:8000/docs/shinken/fr/latest/linexos/arkoon.html
