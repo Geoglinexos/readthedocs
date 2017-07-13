@@ -29,7 +29,7 @@ CPU
 ~~~~~~
 
 Disks 
-        - Utilisations des disques / partitions
+        - Utilisation des disques / partitions
         - SSH
 
 ~~~~~~
@@ -53,7 +53,7 @@ NET
 ~~~~~~
 
 VM Tools
-        - Vérifie de l'état des VMWare Tools
+        - Vérification de l'état des VMWare Tools
         - SSH
 
 ~~~~~~

@@ -18,13 +18,13 @@ Exchange-DatabaseActivity
 ~~~~~~
 
 Exchange-HubTransportActivity
-        - Activité du server de transport Hub
+        - Activité du serveur de transport Hub
         - SNMP
 
 ~~~~~~
 
 Exchange-HubTransportQueues
-        - Taille des queues du server de transport Hub
+        - Taille des queues du serveur de transport Hub
         - SNMP
 
 ~~~~~~

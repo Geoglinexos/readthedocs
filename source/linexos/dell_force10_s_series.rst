@@ -14,7 +14,7 @@ Services
 
 
 Dell Force10 S - CPUs 
-	- Utilisation des CPU
+	- Utilisation des CPUs
 	- SNMP
 
 ~~~~

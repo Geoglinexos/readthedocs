@@ -23,7 +23,7 @@ Mysql-connection
 ~~~~~~
 
 Mysql-index-usage 
-        - Performance sur indexes  
+        - Performances sur indexes  
         - SNMP
 
 
@@ -36,7 +36,7 @@ Mysql-restart
 ~~~~~~ 
 
 Mysql-threadcache-hitrate 
-        - Performance des threads
+        - Performances des threads
         - SNMP
 
 ~~~~~~

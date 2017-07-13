@@ -17,7 +17,7 @@ Services
 
 
 Cisco SG300 - Interface Availability $KEY$
-	- Vérifie la disponibilité d'une ou plusieurs interfaces
+	- Vérification de la disponibilité d'une ou plusieurs interfaces
 	- SNMP
 
 ~~~~

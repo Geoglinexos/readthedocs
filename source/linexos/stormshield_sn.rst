@@ -25,7 +25,7 @@ StormShield SN - CPU
 ~~~~~~
 
 StormShield SN - Disks
-        - Utilisations des disques / partitions
+        - Utilisation des disques / partitions
         - SNMP
 
 ~~~~~~

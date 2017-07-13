@@ -20,7 +20,7 @@ Cisco - APs Status
 ~~~~
 
 Cisco WLC - Interface Availability $KEY$
-	- Vérifie la disponibilité d'une ou plusieurs interfaces
+	- Vérification la disponibilité d'une ou plusieurs interfaces
 	- SNMP
 
 ~~~~
