@@ -3,9 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-###################################
-Catalogue Linexos - Plugins Shinken 
-###################################
+########
+CaLiSE
+########
+
+Catalogue Linexos - Shinken Enterprise 
+**************************************
 
 Qu'est ce qu'un plugin ?
 ************************
