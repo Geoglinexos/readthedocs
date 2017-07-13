@@ -18,7 +18,7 @@ Cpu
 ~~~~~~
 
 Disks $KEY$
-        - Utilisations des disques / partitions
+        - Utilisation des disques / partitions
         - SNMP
 
 ~~~~~~
@@ -42,7 +42,7 @@ NetworkUsage
 ~~~~~~
 
 TimeSync
-        - Vérifie la synchronisation à un server NTP
+        - Vérification de la synchronisation à un server NTP
         - SNMP
 
 
