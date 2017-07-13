@@ -4,10 +4,10 @@
    contain the root `toctree` directive.
 
 ########
-CaLiSE
+caliSE
 ########
 
-Catalogue Linexos - Shinken Enterprise 
+catalogue linexos - Shinken Enterprise 
 **************************************
 
 Qu'est ce qu'un plugin ?
