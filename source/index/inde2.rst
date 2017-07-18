@@ -1,4 +1,4 @@
-catalogue linexos - Shinken Enterprise
+Catalogue linexos - Shinken Enterprise
 ======================================
 
 Qu'est ce qu'un plugin ?
