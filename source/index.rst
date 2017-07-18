@@ -1,5 +1,5 @@
 .. Shinken documentation master file, created by
-   sphinx-quickstart on Thu Jul  6 11:09:05 2017.
+ ragraph title..  sphinx-quickstart on Thu Jul  6 11:09:05 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
@@ -75,7 +75,6 @@ Liste des différents packs
    :titlesonly:
    :hidden:
 
-   self
    shinken_solution/shinken_solution
    linexos/linexos   
 
