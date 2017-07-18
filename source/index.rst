@@ -3,25 +3,26 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-########
+
 caliSE
-########
+======
 
 catalogue linexos - Shinken Enterprise 
-======================================
+**************************************
 
 Qu'est ce qu'un plugin ?
 ************************
+
 C'est un exécutable, script ou binaire, qui est interprété par le système d'exploitation en
 vu de vérifier l'état d'un élément et de relever des métriques.
 
 Qu'est ce qu'un pack ?
 **********************
+
 Un pack sert à regrouper un ensemble de checks spécifiques à un type d'élément supervisable.
 
 Liste des différents packs
 **************************
-
 
 +-----------------------+-----------------------+-------+-----------------------+-----------------------+
 |                Packs Shinken Solution         |       |                Packs Linexox                  |
