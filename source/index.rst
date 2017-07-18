@@ -12,7 +12,6 @@ caliSE
    :maxdepth: 5
    :caption: Table of Contents
    :titlesonly:
-   :hidden:
    
    index/inde2
    shinken_solution/shinken_solution
