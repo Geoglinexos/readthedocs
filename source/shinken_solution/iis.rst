@@ -13,29 +13,29 @@ Services
 
 Connections
         - Statistiques des connexions au serveur
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 Errors
         - Statistiques des erreurs
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 RequestsActivity
         - Statistiques des requêtes
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 TransfertsActivity
         - Statistiques des transferts
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 Users
         - Nombre d'utilisateurs
-        - SNMP
+        - WMI
 

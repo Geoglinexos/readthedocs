@@ -14,46 +14,47 @@ Services
 
 Cpu
         - Utilisation du CPU
-        - SNMP
+        - WMI
 
 ~~~~~~
 
-Disks         - Utilisations des disques / partitions
-        - SNMP
+Disks        
+	- Utilisations des disques / partitions
+        - WMI
 
 ~~~~~~
 
 EventLogApplication
         - Logs d'événements d'application
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 EventLogSystem
         - Logs d'événements système
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 Memory
         - Utilisation de la RAM
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 Network Interface
         - Utilisation des interfaces réseaux 
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 Reboot
         - Uptime de l'appareil
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 Services
         - Supervision de services Windows 
-        - SNMP
+        - WMI
 

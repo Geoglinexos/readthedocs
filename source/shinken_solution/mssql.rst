@@ -15,30 +15,30 @@ Services
 
 Mssql-connected-users
         - Liste des utilisateurs connectés
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 Mssql-connection
         - Connexion à MS SQL
-        - SNMP
+        - WMI
 
 ~~~~~~
 
 Mssql-cpu-busy
 	- Performances CPU de MS SQL
-	- SNMP
+	- WMI
 
 ~~~~~
 
 Mssql-io-busy
 	- Performances entrée / sortie de MS SQL
-	- SNMP
+	- WMI
 
 ~~~~~
 
 Mssql-page-life-expectancy
 	- État de santé de MS SQL
-	- SNMP
+	- WMI
 
 
