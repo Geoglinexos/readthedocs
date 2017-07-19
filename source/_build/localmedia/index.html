@@ -1,0 +1,2575 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>documentation Shinken 0.0.2</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Recherche" href="search.html"/>
+    <link rel="top" title="None" href="index.html#document-index"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="http://calise.linexos.fr:80/docs/calise/fr/latest/" />
+
+<link rel="stylesheet" href="/media/css/readthedocs-doc-embed.css" type="text/css" />
+
+<script type="text/javascript" src="_static/readthedocs-data.js"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = 'index'
+</script>
+
+<script type="text/javascript" src="_static/readthedocs-dynamic-include.js"></script>
+
+<!-- end RTD <extrahead> --></head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html#document-index" class="icon icon-home"> Shinken
+          
+
+          
+            
+            <img src="_static/logo_linexos.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+            
+              <div class="version">
+                latest
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="index.html#document-index">caliSE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-shinken_solution/shinken_solution">Shinken Solutions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/aix">Pack Aix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/cisco">Pack Cisco</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/exchange">Pack Exchange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/hpux">Pack HPUX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/iis">Pack IIS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/ldap">Pack LDAP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/linux">Pack Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/mongodb">Pack MongoDB</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/mssql">Pack MSSQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/mysql">Pack MySQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/oracle">Pack Oracle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/switch">Pack switch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/vmware">Pack VMware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-shinken_solution/windows">Pack Windows</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-linexos/linexos">Linexos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/arkoon">Pack Arkoon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/aruba_ap">Pack Aruba Access Points</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/aruba_wlc">Pack Aruba Wireless Controler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/cisco_catalyst">Pack Cisco Catalyst</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/cisco_sg300">Pack Cisco SG300</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/cisco_wlc">Pack Cisco Wireless Controler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/dell_force10">Pack Dell Force10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/dell_force10_s_series">Pack Dell Force 10 S Series</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/dell_powerconnect54XX">Pack Dell PowerConnect54XX Series</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/dell_powerconnect62XX">Pack Dell PowerConnect 62XX Series</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/fortinet">Pack Fortinet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/hp_procurve">Pack HP Procurve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/motorola_rfs6000">Pack Motorola RFS6000</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/palo_alto">Pack PaloAlto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/palo_alto_api">Pack PaloAlto by API Rest</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-linexos/stormshield_sn">Pack StormShield SN Series</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html#document-index">Shinken</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html#document-index">Docs</a> &raquo;</li>
+        
+      <li>documentation Shinken 0.0.2</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="calise">
+<h1>caliSE<a class="headerlink" href="#calise" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="catalogue-linexos-shinken-enterprise">
+<h2>catalogue linexos - Shinken Enterprise<a class="headerlink" href="#catalogue-linexos-shinken-enterprise" title="Lien permanent vers ce titre">¶</a></h2>
+</div>
+<div class="section" id="qu-est-ce-qu-un-plugin">
+<h2>Qu&#8217;est ce qu&#8217;un plugin ?<a class="headerlink" href="#qu-est-ce-qu-un-plugin" title="Lien permanent vers ce titre">¶</a></h2>
+<p>C&#8217;est un exécutable, script ou binaire, qui est interprété par le système d&#8217;exploitation en
+vu de vérifier l&#8217;état d&#8217;un élément et de relever des métriques.</p>
+</div>
+<div class="section" id="qu-est-ce-qu-un-pack">
+<h2>Qu&#8217;est ce qu&#8217;un pack ?<a class="headerlink" href="#qu-est-ce-qu-un-pack" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Un pack sert à regrouper un ensemble de checks spécifiques à un type d&#8217;élément supervisable.</p>
+</div>
+<div class="section" id="liste-des-differents-packs">
+<h2>Liste des différents packs<a class="headerlink" href="#liste-des-differents-packs" title="Lien permanent vers ce titre">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="23%" />
+<col width="23%" />
+<col width="7%" />
+<col width="23%" />
+<col width="23%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head" colspan="2">Packs Shinken Solution</th>
+<th class="head">&#160;</th>
+<th class="head" colspan="2">Packs Linexox</th>
+</tr>
+<tr class="row-even"><th class="head">Nom du pack</th>
+<th class="head">Nombre de checks</th>
+<th class="head">&#160;</th>
+<th class="head">Nom du pack</th>
+<th class="head">Nombre de checks</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-odd"><td>aix</td>
+<td>6</td>
+<td>&#160;</td>
+<td>arkoon</td>
+<td>5</td>
+</tr>
+<tr class="row-even"><td>cisco</td>
+<td>6</td>
+<td>&#160;</td>
+<td>aruba_ap</td>
+<td>3</td>
+</tr>
+<tr class="row-odd"><td>exchange</td>
+<td>5</td>
+<td>&#160;</td>
+<td>aruba_wlc</td>
+<td>5</td>
+</tr>
+<tr class="row-even"><td>hpux</td>
+<td>6</td>
+<td>&#160;</td>
+<td>cisco_catalyst</td>
+<td>7</td>
+</tr>
+<tr class="row-odd"><td>iis</td>
+<td>5</td>
+<td>&#160;</td>
+<td>cisco_sg300</td>
+<td>6</td>
+</tr>
+<tr class="row-even"><td>ldap</td>
+<td>4</td>
+<td>&#160;</td>
+<td>cisco_wlc</td>
+<td>9</td>
+</tr>
+<tr class="row-odd"><td>linux</td>
+<td>8</td>
+<td>&#160;</td>
+<td>dell_force10</td>
+<td>5</td>
+</tr>
+<tr class="row-even"><td>mongodb</td>
+<td>6</td>
+<td>&#160;</td>
+<td>dell_force10_s</td>
+<td>10</td>
+</tr>
+<tr class="row-odd"><td>mssql</td>
+<td>5</td>
+<td>&#160;</td>
+<td>dell_powerconnect54xx</td>
+<td>5</td>
+</tr>
+<tr class="row-even"><td>mysql</td>
+<td>5</td>
+<td>&#160;</td>
+<td>dell_powerconnect62xx</td>
+<td>10</td>
+</tr>
+<tr class="row-odd"><td>oracle</td>
+<td>34</td>
+<td>&#160;</td>
+<td>fortinet</td>
+<td>8</td>
+</tr>
+<tr class="row-even"><td>switch</td>
+<td>3</td>
+<td>&#160;</td>
+<td>hp_procurve</td>
+<td>7</td>
+</tr>
+<tr class="row-odd"><td>vmware</td>
+<td>10</td>
+<td>&#160;</td>
+<td>motorola_rfs6000</td>
+<td>7</td>
+</tr>
+<tr class="row-even"><td>windows</td>
+<td>8</td>
+<td>&#160;</td>
+<td>palo_alto</td>
+<td>15</td>
+</tr>
+<tr class="row-odd"><td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>palo_alto_api</td>
+<td>5</td>
+</tr>
+<tr class="row-even"><td>&#160;</td>
+<td>&#160;</td>
+<td>&#160;</td>
+<td>stormshield_sn</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Les noms de check qui comportent &#8220;$KEY$&#8221; changent en fonction de l&#8217;argument correspondant (les &#8220;$KEY$&#8221; seront remplacés par l&#8217;argument, voir  <a class="reference external" href="http://151.80.162.119:8090/pages/releaseview.action?pageId=80120248">duplicate_foreach</a>).</p>
+</div>
+<div class="toctree-wrapper compound">
+<span id="document-shinken_solution/shinken_solution"></span><div class="section" id="shinken-solutions">
+<h3>Shinken Solutions<a class="headerlink" href="#shinken-solutions" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="toctree-wrapper compound">
+<span id="document-shinken_solution/aix"></span><div class="section" id="pack-aix">
+<h4>Pack Aix<a class="headerlink" href="#pack-aix" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour Aix</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Cpu</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Disks $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des disques / partitions</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Load</dt>
+<dd><ul class="first last simple">
+<li>Moyenne de la charge système à 1, 5 et 15 minutes</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>NetworkUsage</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces réseaux ( en % et en byte/s)</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>TimeSync</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la synchronisation à un server NTP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/cisco"></span><div class="section" id="pack-cisco">
+<h4>Pack Cisco<a class="headerlink" href="#pack-cisco" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les équipements Cisco</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Cpu</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Hardware</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état du Hardware</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>InterfaceErrors</dt>
+<dd><ul class="first last simple">
+<li>Nombre d&#8217;erreurs sur les interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>InterfaceStatus</dt>
+<dd><ul class="first last simple">
+<li>Statut des interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>InterfaceUsage</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/exchange"></span><div class="section" id="pack-exchange">
+<h4>Pack Exchange<a class="headerlink" href="#pack-exchange" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour Microsoft Exchange</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Exchange-DatabaseActivity</dt>
+<dd><ul class="first last simple">
+<li>Activité de la base de données</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Exchange-HubTransportActivity</dt>
+<dd><ul class="first last simple">
+<li>Activité du serveur de transport Hub</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Exchange-HubTransportQueues</dt>
+<dd><ul class="first last simple">
+<li>Taille des queues du serveur de transport Hub</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Exchange-SmtpReceive</dt>
+<dd><ul class="first last simple">
+<li>Nombre de mails reçus</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Exchange-SmtpSend</dt>
+<dd><ul class="first last simple">
+<li>Nombre de mails envoyés</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/hpux"></span><div class="section" id="pack-hpux">
+<h4>Pack HPUX<a class="headerlink" href="#pack-hpux" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour HP-UX</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Cpu</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Disks $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des disques / partitions</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Load</dt>
+<dd><ul class="first last simple">
+<li>Moyenne de la charge système à 1, 5 et 15 minutes</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>NetworkUsage</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces réseaux ( en % et en byte/s)</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>TimeSync</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la synchronisation à un server NTP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/iis"></span><div class="section" id="pack-iis">
+<h4>Pack IIS<a class="headerlink" href="#pack-iis" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour serveurs Web IIS</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Connections</dt>
+<dd><ul class="first last simple">
+<li>Statistiques des connexions au serveur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Errors</dt>
+<dd><ul class="first last simple">
+<li>Statistiques des erreurs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>RequestsActivity</dt>
+<dd><ul class="first last simple">
+<li>Statistiques des requêtes</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>TransfertsActivity</dt>
+<dd><ul class="first last simple">
+<li>Statistiques des transferts</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Users</dt>
+<dd><ul class="first last simple">
+<li>Nombre d&#8217;utilisateurs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/ldap"></span><div class="section" id="pack-ldap">
+<h4>Pack LDAP<a class="headerlink" href="#pack-ldap" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour annuaires LDAP</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Ldap</dt>
+<dd><ul class="first last simple">
+<li>Vérification du fonctionnement de LDAP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Ldap3</dt>
+<dd><ul class="first last simple">
+<li>Vérification du fonctionnement de LDAP3</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Ldaps</dt>
+<dd><ul class="first last simple">
+<li>Vérification du fonctionnement de LDAP over SSL</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>LdapsCertificate</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la présence d&#8217;un certificat pour LDAP over SSL</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/linux"></span><div class="section" id="pack-linux">
+<h4>Pack Linux<a class="headerlink" href="#pack-linux" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour Linux</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>CPU Stats</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Disks Stats</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des disques / partitions</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Load</dt>
+<dd><ul class="first last simple">
+<li>Moyenne de la charge système à 1, 5 et 15 minutes</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>NET Stats</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces réseaux</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>NtpSync</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la synchronisation à un server NTP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Reboot</dt>
+<dd><ul class="first last simple">
+<li>Uptime de l&#8217;appareil</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>SSH Connexion</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la connexion SSH</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/mongodb"></span><div class="section" id="pack-mongodb">
+<h4>Pack MongoDB<a class="headerlink" href="#pack-mongodb" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les bases de données MongoDB</em></p>
+<dl class="docutils">
+<dt>Mongodb-connection</dt>
+<dd><ul class="first last simple">
+<li>Connexion à Mongodb</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mongodb-queries-stat-delete</dt>
+<dd><ul class="first last simple">
+<li>Statistiques pour une action de suppression</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mongodb-queries-stat-insert</dt>
+<dd><ul class="first last simple">
+<li>Statistiques pour une action d&#8217;ajout</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mongodb-queries-stat-query</dt>
+<dd><ul class="first last simple">
+<li>Statistiques pour une requête</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mongodb-queries-stat-update</dt>
+<dd><ul class="first last simple">
+<li>Statistiques pour une action de mise à jour</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mongodb-replicaset</dt>
+<dd><ul class="first last simple">
+<li>Replication Mongodb</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/mssql"></span><div class="section" id="pack-mssql">
+<h4>Pack MSSQL<a class="headerlink" href="#pack-mssql" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les bases de données MS SQL</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Mssql-connected-users</dt>
+<dd><ul class="first last simple">
+<li>Liste des utilisateurs connectés</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mssql-connection</dt>
+<dd><ul class="first last simple">
+<li>Connexion à MS SQL</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mssql-cpu-busy</dt>
+<dd><ul class="first last simple">
+<li>Performances CPU de MS SQL</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mssql-io-busy</dt>
+<dd><ul class="first last simple">
+<li>Performances entrée / sortie de MS SQL</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mssql-page-life-expectancy</dt>
+<dd><ul class="first last simple">
+<li>État de santé de MS SQL</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/mysql"></span><div class="section" id="pack-mysql">
+<h4>Pack MySQL<a class="headerlink" href="#pack-mysql" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les bases de données MySQL</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Mysql-connection</dt>
+<dd><ul class="first last simple">
+<li>Connexion à MySQL</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mysql-index-usage</dt>
+<dd><ul class="first last simple">
+<li>Performances sur indexes</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mysql-restart</dt>
+<dd><ul class="first last simple">
+<li>Uptime de MySQL</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mysql-threadcache-hitrate</dt>
+<dd><ul class="first last simple">
+<li>Performances des threads</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mysql-threads-connected</dt>
+<dd><ul class="first last simple">
+<li>Nombre de threads connectés</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/oracle"></span><div class="section" id="pack-oracle">
+<h4>Pack Oracle<a class="headerlink" href="#pack-oracle" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les bases de données Oracle</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Templates d&#8217;hôte pour les checks Oracle.</p>
+</div>
+<dl class="docutils">
+<dt>oracle</dt>
+<dd>6 Checks élémentaires sur l&#8217;état et les performances d&#8217;Oracle</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-availability</dt>
+<dd>1 Check sur le temps de connexion à Oracle</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-datafiles</dt>
+<dd>2 Checks sur l&#8217;existence et le traffic des fichiers de données</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-flash-recovery-area</dt>
+<dd>1 Check sur les espaces de stockage FRA</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-pga-in-memory-sort-ratio</dt>
+<dd>1 Check sur la partie mémoire Program Global Area</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-redo</dt>
+<dd>3 Checks sur les fichiers de log Redo</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-rman</dt>
+<dd>1 Check sur l&#8217;utilitaire RMAN</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-rollback-segment</dt>
+<dd>5 Checks sur les objects Rollback Segment</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-sga</dt>
+<dd>7 Checks sur la partie mémoire System Global Area</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-soft-parse</dt>
+<dd>1 Check sur le soft parse</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-stale-statistics</dt>
+<dd>1 Check sur les statistiques d&#8217;erreur</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-tablespace</dt>
+<dd>3 Checks sur les espaces de stockage &#8220;tablespace&#8221;</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>oracle-usage</dt>
+<dd>2 Checks sur les sessions et utilisateurs</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/switch"></span><div class="section" id="pack-switch">
+<h4>Pack switch<a class="headerlink" href="#pack-switch" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour commutateurs</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>InterfaceErrors</dt>
+<dd><ul class="first last simple">
+<li>Nombre d&#8217;erreurs sur les interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>InterfaceStatus</dt>
+<dd><ul class="first last simple">
+<li>Statut des interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>InterfaceUsage</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-shinken_solution/vmware"></span><div class="section" id="pack-vmware">
+<h4>Pack VMware<a class="headerlink" href="#pack-vmware" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour ESX et machines virtuelles VMware</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<hr class="docutils" />
+<hr class="docutils" />
+<div class="section" id="vm">
+<h6><strong>VM</strong><a class="headerlink" href="#vm" title="Lien permanent vers ce titre">¶</a></h6>
+<hr class="docutils" />
+<hr class="docutils" />
+<dl class="docutils">
+<dt>CPU</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SSH</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Disks</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des disques / partitions</li>
+<li>SSH</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Mem</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SSH</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Io</dt>
+<dd><ul class="first last simple">
+<li>Input / output</li>
+<li>SSH</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>NET</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces réseaux</li>
+<li>SSH</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>VM Tools</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état des VMWare Tools</li>
+<li>SSH</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+</div>
+<hr class="docutils" />
+<div class="section" id="esx">
+<h6><strong>ESX</strong><a class="headerlink" href="#esx" title="Lien permanent vers ce titre">¶</a></h6>
+<hr class="docutils" />
+<hr class="docutils" />
+<dl class="docutils">
+<dt>CPU</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>API - HTTP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>API - HTTP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Io</dt>
+<dd><ul class="first last simple">
+<li>Input / output</li>
+<li>API - HTTP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>NET</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces réseaux</li>
+<li>API - HTTP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<span id="document-shinken_solution/windows"></span><div class="section" id="pack-windows">
+<h4>Pack Windows<a class="headerlink" href="#pack-windows" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour Windows</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Cpu</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Disks         - Utilisations des disques / partitions</dt>
+<dd><ul class="first last simple">
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>EventLogApplication</dt>
+<dd><ul class="first last simple">
+<li>Logs d&#8217;événements d&#8217;application</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>EventLogSystem</dt>
+<dd><ul class="first last simple">
+<li>Logs d&#8217;événements système</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Network Interface</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces réseaux</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Reboot</dt>
+<dd><ul class="first last simple">
+<li>Uptime de l&#8217;appareil</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Services</dt>
+<dd><ul class="first last simple">
+<li>Supervision de services Windows</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<span id="document-linexos/linexos"></span><div class="section" id="linexos">
+<h3>Linexos<a class="headerlink" href="#linexos" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="toctree-wrapper compound">
+<span id="document-linexos/arkoon"></span><div class="section" id="pack-arkoon">
+<h4>Pack Arkoon<a class="headerlink" href="#pack-arkoon" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les équipements Arkoon</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<dl class="docutils">
+<dt>Arkoon - CPU</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Arkoon - Disks</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des disques / partitions</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Arkoon - Load</dt>
+<dd><ul class="first last simple">
+<li>Moyenne de la charge système à 1, 5 et 15 minutes</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Arkoon - Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Arkoon - NetworkUsage</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces réseaux ( en % et en byte/s)</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/aruba_ap"></span><div class="section" id="pack-aruba-access-points">
+<h4>Pack Aruba Access Points<a class="headerlink" href="#pack-aruba-access-points" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les points d&#8217;accès (AP) Aruba</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>AP - Associations</dt>
+<dd><ul class="first last simple">
+<li>Nombre d&#8217;appareils connectés à l&#8217;AP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>AP - Status</dt>
+<dd><ul class="first last simple">
+<li>Statut de l&#8217;AP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>AP - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime de l&#8217;AP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/aruba_wlc"></span><div class="section" id="pack-aruba-wireless-controler">
+<h4>Pack Aruba Wireless Controler<a class="headerlink" href="#pack-aruba-wireless-controler" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les contrôleurs Wi-Fi Aruba</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Controller - Nombre Total Associations</dt>
+<dd><ul class="first last simple">
+<li>Nombre d&#8217;appareils connectés aux AP associés au controller</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Controller - Load</dt>
+<dd><ul class="first last simple">
+<li>Moyenne de la charge système à 1, 5 et 15 minutes</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Controller - Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Controller - Nombre AP</dt>
+<dd><ul class="first last simple">
+<li>Nombre total d&#8217;AP associés au controller</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Controller - Status des APs</dt>
+<dd><ul class="first last simple">
+<li>Statut agrégé des AP associés au controller</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/cisco_catalyst"></span><div class="section" id="pack-cisco-catalyst">
+<h4>Pack Cisco Catalyst<a class="headerlink" href="#pack-cisco-catalyst" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les commutateurs Catalyst de Cisco</em></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Ces checks ont été testé sur des Cisco Catalyst 3750, 3550, 2960.</p>
+</div>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Cisco Catalyst - Interface Availability $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la disponibilité d&#8217;une ou plusieurs interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco Catalyst - CPU</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco Catalyst - Check Config</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la configuration du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco Catalyst - Hardware</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état du commutateur (alimentation, ventilateurs,...)</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco Catalyst - Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco Catalyst - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco Catalyst - Interface Usage $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Utilisation d&#8217;une ou plusieurs interfaces du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/cisco_sg300"></span><div class="section" id="pack-cisco-sg300">
+<h4>Pack Cisco SG300<a class="headerlink" href="#pack-cisco-sg300" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les commutateurs SG300 de Cisco</em></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Ces checks ont été testé sur des SG300 10 Ports PoE, mais sont fonctionnel sur des gammes SG100 et SG500.</p>
+</div>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Cisco SG300 - Interface Availability $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la disponibilité d&#8217;une ou plusieurs interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco SG300 - CPU</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco SG300 - FANs</dt>
+<dd><ul class="first last simple">
+<li>Vérification du fonctionnement des ventilateurs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Ne renvoie pas d&#8217;erreur critique si un switch ne possède pas de ventilateurs.</p>
+</div>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco SG300 - Temperature</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la température du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco SG300 - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco SG300 - Interface Usage $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Utilisation d&#8217;une ou plusieurs interfaces du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/cisco_wlc"></span><div class="section" id="pack-cisco-wireless-controler">
+<h4>Pack Cisco Wireless Controler<a class="headerlink" href="#pack-cisco-wireless-controler" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les contrôleurs Wi-Fi Cisco</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Cisco - APs Status</dt>
+<dd><ul class="first last simple">
+<li>Vérification du statut des AP associés au contrôleur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco WLC - Interface Availability $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Vérification la disponibilité d&#8217;une ou plusieurs interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco - APs number</dt>
+<dd><ul class="first last simple">
+<li>Nombre total d&#8217;AP associés au contrôleur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco WLC - CPU</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco WLC - Hardware</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l’état du commutateur (alimentation, ventilateurs,...)</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco - List APs</dt>
+<dd><ul class="first last simple">
+<li>Liste des AP associés au contrôleur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco WLC - Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco WLC - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime du contrôleur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Cisco WLC - Interface Usage $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Utilisation d&#8217;une ou plusieurs interfaces du contrôleur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/dell_force10"></span><div class="section" id="pack-dell-force10">
+<h4>Pack Dell Force10<a class="headerlink" href="#pack-dell-force10" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les commutateurs Dell Force10</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Dell Force10 - FANs</dt>
+<dd><ul class="first last simple">
+<li>Vérification du fonctionnement des ventilateurs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 - PowerSupply</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;alimentation</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 - Temperature</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la température</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 - Versions</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la version du firmware</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/dell_force10_s_series"></span><div class="section" id="pack-dell-force-10-s-series">
+<h4>Pack Dell Force 10 S Series<a class="headerlink" href="#pack-dell-force-10-s-series" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les commutateurs Dell Force10 S Series</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Dell Force10 S - CPUs</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des CPUs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 S - FANs</dt>
+<dd><ul class="first last simple">
+<li>Vérification du fonctionnement des ventilateurs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 S - Iface-$KEY$_Collisions</dt>
+<dd><ul class="first last simple">
+<li>Détections des collisions sur une ou plusieurs interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 S - Iface-$KEY$_Status</dt>
+<dd><ul class="first last simple">
+<li>Statut d&#8217;une ou plusieurs interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 S - Power Supplies</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;alimentation</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 S - Temperature</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la température</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 S - TRAP SNMP</dt>
+<dd><ul class="first last simple">
+<li>Check passif, statut du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 S - Versions</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la version du firmware</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 S - VLT Status</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état de lien d&#8217;aggrégation VLT</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Dell Force10 S - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/dell_powerconnect54XX"></span><div class="section" id="pack-dell-powerconnect54xx-series">
+<h4>Pack Dell PowerConnect54XX Series<a class="headerlink" href="#pack-dell-powerconnect54xx-series" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les commutateurs PowerConnect 54XX de Dell</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>PowerConnect - fan</dt>
+<dd><ul class="first last simple">
+<li>Vérification du fonctionnement des ventilateurs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect - powersupply</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;alimentation</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect - temperature</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la température</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect - version</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la version du firmware</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/dell_powerconnect62XX"></span><div class="section" id="pack-dell-powerconnect-62xx-series">
+<h4>Pack Dell PowerConnect 62XX Series<a class="headerlink" href="#pack-dell-powerconnect-62xx-series" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les commutateurs PowerConnect 62XX de Dell</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>PowerConnect 62xx - Assets</dt>
+<dd><ul class="first last simple">
+<li>Vérification des &#8220;assets&#8221;</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect 62xx - FANs</dt>
+<dd><ul class="first last simple">
+<li>Vérification du fonctionnement des ventilateurs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect 62xx - InterfaceStatus</dt>
+<dd><ul class="first last simple">
+<li>Statut des interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect 62xx - InterfaceUsage</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect 62xx - Power Supplies</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;alimentation</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect 62xx - Temperature</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la température</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect 62xx - STP Topology</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la topologie Spanning Tree</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect 62xx - Stack[0-3] Status</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état de la pile de commutateurs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect 62xx - Status Rocade</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état de lien d&#8217;aggrégation LACP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>PowerConnect 62xx - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/fortinet"></span><div class="section" id="pack-fortinet">
+<h4>Pack Fortinet<a class="headerlink" href="#pack-fortinet" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les équipements Fortinet</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Fortinet - cpu</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Fortinet - HA</dt>
+<dd><ul class="first last simple">
+<li>Statut d&#8217;un cluster High Availability (HA)</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Fortinet - Interface $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Statut d&#8217;une ou plusieurs interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Fortinet - mem</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Fortinet - sessions</dt>
+<dd><ul class="first last simple">
+<li>Vérification des sessions</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Fortinet - System</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état du hardware</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Fortinet - Status</dt>
+<dd><ul class="first last simple">
+<li>Statut d&#8217;un VPN</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Fortinet - VPN Tunnel</dt>
+<dd><ul class="first last simple">
+<li>Statut d&#8217;un tunnel VPN</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/hp_procurve"></span><div class="section" id="pack-hp-procurve">
+<h4>Pack HP Procurve<a class="headerlink" href="#pack-hp-procurve" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les commutateurs HP ProCurve</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>HP Procurve - CPU</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>HP Procurve - Environment</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état des ventilateurs, de l&#8217;alimentation, de la température</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>HP Procurve - Hardware</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état du hardware</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>HP Procurve - Interface Availability $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Disponibilité d&#8217;une ou plusieurs interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>HP Procurve - Interface Usage $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Utilisation d&#8217;une ou plusieurs interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>HP Procurve - Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>HP Procurve - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/motorola_rfs6000"></span><div class="section" id="pack-motorola-rfs6000">
+<h4>Pack Motorola RFS6000<a class="headerlink" href="#pack-motorola-rfs6000" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les controllers Wi-Fi RFS6000 de Motorola</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>RFS6000 - CPU</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>RFS6000 - FANs</dt>
+<dd><ul class="first last simple">
+<li>Vérification du fonctionnement des ventilateurs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>RFS6000 - Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>RFS6000 - Nombre AP</dt>
+<dd><ul class="first last simple">
+<li>Nombre de points d&#8217;accès connectés au controller</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>RFS6000 - Total Session</dt>
+<dd><ul class="first last simple">
+<li>Nombre total de sessions liées au controller</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>RFS6000 - Temperature</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la température</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>RFS6000 - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime du commutateur</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/palo_alto"></span><div class="section" id="pack-paloalto">
+<h4>Pack PaloAlto<a class="headerlink" href="#pack-paloalto" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les équipements Palo Alto</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Paloalto - App Version</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la version de l&#8217;application</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - CPUs</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - FANs</dt>
+<dd><ul class="first last simple">
+<li>Vérification du fonctionnement des ventilateurs</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - Disks</dt>
+<dd><ul class="first last simple">
+<li>Utilisations des disques / partitions</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - GlobalProtect gateway</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la passerelle GlobalProtect</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - HA</dt>
+<dd><ul class="first last simple">
+<li>Statut d&#8217;un cluster High Availability (HA)</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - ICMP Sessions</dt>
+<dd><ul class="first last simple">
+<li>Nombre de sessions ICMP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - Panorama Status</dt>
+<dd><ul class="first last simple">
+<li>Vérification du statut de Panorama</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - Stats $KEY$</dt>
+<dd><ul class="first last simple">
+<li>Utilisation d&#8217;une ou plusieurs interfaces</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - System</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état du hardware</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - TCP Sessions</dt>
+<dd><ul class="first last simple">
+<li>Nombre de sessions TCP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - Temperature</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la température</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - Total Sessions</dt>
+<dd><ul class="first last simple">
+<li>Nombre total de sessions liées au controller</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - UDP Sessions</dt>
+<dd><ul class="first last simple">
+<li>Nombre de sessions UDP</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - Version</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la version</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/palo_alto_api"></span><div class="section" id="pack-paloalto-by-api-rest">
+<h4>Pack PaloAlto by API Rest<a class="headerlink" href="#pack-paloalto-by-api-rest" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour l&#8217;API des équipements Palo Alto</em></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Ces checks passe par l&#8217;API Rest des Palo Alto si celle-ci est active. Ils fonctionnent avec un login/password associé à cette API. Le mode &#8220;read-only&#8221; est préférable pour ce compte.</p>
+</div>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>Paloalto - Certificat</dt>
+<dd><ul class="first last simple">
+<li>Disponibilité du certificat</li>
+<li>via XML</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - HA Sync</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la synchronisation entre les éléments d&#8217;un cluster HA</li>
+<li>via XML</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - Health</dt>
+<dd><ul class="first last simple">
+<li>Vérification de l&#8217;état du Hardware</li>
+<li>via XML</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - NTP</dt>
+<dd><ul class="first last simple">
+<li>Vérification de la connexion au serveur NTP</li>
+<li>via XML</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>Paloalto - VPN Status</dt>
+<dd><ul class="first last simple">
+<li>Statut du VPN</li>
+<li>via XML</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<span id="document-linexos/stormshield_sn"></span><div class="section" id="pack-stormshield-sn-series">
+<h4>Pack StormShield SN Series<a class="headerlink" href="#pack-stormshield-sn-series" title="Lien permanent vers ce titre">¶</a></h4>
+<div class="section" id="description">
+<h5>Description<a class="headerlink" href="#description" title="Lien permanent vers ce titre">¶</a></h5>
+<p><em>Checks pour les pare-feux StormShield SN</em></p>
+</div>
+<div class="section" id="services">
+<h5>Services<a class="headerlink" href="#services" title="Lien permanent vers ce titre">¶</a></h5>
+<dl class="docutils">
+<dt>StormShield SN - Cluster</dt>
+<dd><ul class="first last simple">
+<li>Statut d&#8217;un cluster High Availability (HA)</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>StormShield SN - CPU</dt>
+<dd><ul class="first last simple">
+<li>Utilisation du CPU</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>StormShield SN - Disks</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des disques / partitions</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>StormShield SN - Load</dt>
+<dd><ul class="first last simple">
+<li>Moyenne de la charge système à 1, 5 et 15 minutes</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>StormShield SN - Memory</dt>
+<dd><ul class="first last simple">
+<li>Utilisation de la RAM</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>StormShield SN - Model</dt>
+<dd><ul class="first last simple">
+<li>Modèle du pare-feu</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>StormShield SN - NetworkUsage</dt>
+<dd><ul class="first last simple">
+<li>Utilisation des interfaces réseaux ( en % et en byte/s)</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>StormShield SN - Uptime</dt>
+<dd><ul class="first last simple">
+<li>Uptime du pare-feu</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+<dl class="docutils">
+<dt>StormShield SN - VPN Status</dt>
+<dd><ul class="first last simple">
+<li>Statut d&#8217;un VPN</li>
+<li>SNMP</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Linexos.
+      
+        <span class="commit">
+          Revision <code>9b040c57</code>.
+        </span>
+      
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: latest
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="/fr/latest/">latest</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="//calise.linexos.fr:80/projects/calise/downloads/htmlzip/latest/">htmlzip</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>On Read the Docs</dt>
+          <dd>
+            <a href="//calise.linexos.fr:80/projects/calise/?fromdocs=calise">Project Home</a>
+          </dd>
+          <dd>
+            <a href="//calise.linexos.fr:80/builds/calise/?fromdocs=calise">Builds</a>
+          </dd>
+      </dl>
+      <hr/>
+      Free document hosting provided by <a href="http://www.readthedocs.org">Read the Docs</a>.
+
+    </div>
+  </div>
+
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.0.2',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

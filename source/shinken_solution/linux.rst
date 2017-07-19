@@ -15,46 +15,46 @@ Services
 
 CPU Stats
         - Utilisation du CPU
-        - SNMP
+        - SSH 
 
 ~~~~~~
 
 Disks Stats
         - Utilisation des disques / partitions
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 Load
         - Moyenne de la charge système à 1, 5 et 15 minutes
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 Memory
         - Utilisation de la RAM
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 NET Stats
         - Utilisation des interfaces réseaux 
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 NtpSync
         - Vérification de la synchronisation à un server NTP
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 Reboot
         - Uptime de l'appareil
-        - SNMP
+        - SSH
 
 ~~~~~~
 
 SSH Connexion
         - Vérification de la connexion SSH
-        - SNMP
+        - SSH
