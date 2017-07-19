@@ -18,31 +18,31 @@ Services
 
 Mysql-connection
         - Connexion à MySQL
-        - SNMP
+        - API
 
 ~~~~~~
 
 Mysql-index-usage 
         - Performances sur indexes  
-        - SNMP
+        - API
 
 
 ~~~~~~
 
 Mysql-restart
         - Uptime de MySQL 
-        - SNMP
+        - API
 
 ~~~~~~ 
 
 Mysql-threadcache-hitrate 
         - Performances des threads
-        - SNMP
+        - API
 
 ~~~~~~
 
 Mysql-threads-connected
         - Nombre de threads connectés 
-        - SNMP
+        - API
 
 
