@@ -14,12 +14,12 @@ Services
 ********
 
 
-Controller - CPU
+F5 - CPU
 	- Utilisation du CPU
 	- SNMP
 
 ~~~~
 
-Controller - Memory
+F5 - Memory
 	- Utilisation de la RAM
 	- SNMP
