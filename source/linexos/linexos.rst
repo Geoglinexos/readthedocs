@@ -23,6 +23,8 @@ Linexos
    motorola_rfs6000
    palo_alto
    palo_alto_api
+   juniper
+   riverbed
    stormshield_sn
 
 
