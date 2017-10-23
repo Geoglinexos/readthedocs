@@ -57,7 +57,7 @@ Juniper - Fans
         - Etat des ventilateur des switches du VC
         - SNMP
 
-~~~
+~~~~
 
 Juniper - Power Supply
         - Etat des alimentations des switches

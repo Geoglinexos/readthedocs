@@ -16,7 +16,7 @@ Riverbed - Model
         - Information au sujet du modèle
         - SNMP
 
-~~~
+~~~~
 
 Riverbed - Interface Availability $KEY$
 	- Vérification de la disponibilité d'une ou plusieurs interfaces
